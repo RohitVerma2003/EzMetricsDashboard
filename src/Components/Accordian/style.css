@@ -1,0 +1,10 @@
+@media screen and (max-width:990px) {
+    .acd{
+        width: 50%;
+        position: absolute;
+        z-index: 100;
+        transition: all 100ms;
+        background-color: white;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    }
+}

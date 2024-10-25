@@ -1,0 +1,41 @@
+.accordion-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.accordion-body a:hover {
+    color: dodgerblue;
+}
+
+.accordion-button[aria-expanded="true"] {
+    color: dodgerblue;
+}
+
+.accordion-button[aria-expanded="true"] .iconColor {
+    filter: brightness(0) saturate(100%) invert(38%) sepia(51%) saturate(5284%) hue-rotate(206deg) brightness(95%) contrast(111%);
+}
+
+.accordion {
+    --bs-accordion-btn-icon-width: 0rem;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: transparent !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(0deg) !important;
+}
+
+.accordion-button::after {
+    transform: rotate(-90deg) !important;
+}
+
+.lightbtn:hover {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.lightbtn {
+    border: none !important;
+}

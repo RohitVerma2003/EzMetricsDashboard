@@ -1,0 +1,152 @@
+.slideup {
+    transition: all 0.2s;
+    animation: slideUpAnime 0.5s linear;
+}
+
+.slidedown {
+    transition: all 0.2s;
+    animation: slideDownAnime 0.5s linear;
+}
+
+.slideleft {
+    transition: all 0.2s;
+    animation: slideLeftAnime 0.5s linear;
+}
+
+.slideright {
+    transition: all 0.2s;
+    animation: slideRightAnime 0.5s linear;
+}
+
+.zoomin {
+    transition: all 0.2s;
+    animation: zoomInAnime 0.5s linear;
+}
+
+.zoominUp {
+    transition: all 0.2s;
+    animation: zoomInUpAnime 0.5s linear;
+}
+
+.zoominLeft {
+    transition: all 0.2s;
+    animation: zoomInLeftAnime 0.5s linear;
+}
+
+.zoominRight {
+    transition: all 0.2s;
+    animation: zoomInRightAnime 0.5s linear;
+}
+
+.rollin {
+    transition: all 0.2s;
+    animation: rollin 0.5s linear;
+}
+
+@keyframes zoomInRightAnime {
+    from {
+        opacity: 0;
+        scale: 0;
+        left: 90vh;
+    }
+
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes rollin {
+    from {
+        opacity: 0;
+        transform: rotate(180deg);
+        translate: -50% -50%;
+        left: -50vh;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomInLeftAnime {
+    from {
+        opacity: 0;
+        scale: 0;
+        left: -70vh;
+    }
+
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes zoomInUpAnime {
+    from {
+        opacity: 0;
+        scale: 0;
+        top: 25vh;
+    }
+
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes zoomInAnime {
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes slideRightAnime {
+    from {
+        opacity: 0;
+        left: 25vh;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeftAnime {
+    from {
+        opacity: 0;
+        left: -25vh;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideDownAnime {
+    from {
+        opacity: 0;
+        top: -25vh;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUpAnime {
+    from {
+        opacity: 0;
+        top: 25vh;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

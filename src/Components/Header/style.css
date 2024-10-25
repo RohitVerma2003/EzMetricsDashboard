@@ -1,0 +1,17 @@
+.header-left {
+    width: 50%;
+}
+
+@media screen and (max-width : 990px) {
+    .header-left {
+        width: 100% !important;
+    }
+
+    .display-none {
+        display: none !important;
+    }
+
+    .just-btw {
+        justify-content: space-between !important;
+    }
+}
